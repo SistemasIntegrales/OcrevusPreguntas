@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Oradores from './components/Oradores/Oradores';
+import OradoresPreguntas from './components/Oradores/OradoresPreguntas/OradoresPreguntas';
+import PublicHome from './components/PublicoHome/PublicoHome';
+import HacerPregunta from './components/PublicoHome/HacerPregunta/HacerPregunta';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <Router>
+            <div className="main">
+                <Route exact path = "/" component = {Oradores} />
+                <Route exact path = "/:id" component = {OradoresPreguntas} />
+
+                <Route exact path = "/preguntar" component = {PublicHome} />
+                <Route exact path = "/preguntar/:id" component = {HacerPregunta} />
+            </div>
+        </Router>
     );
   }
 }
