@@ -1,8 +1,11 @@
 # Preguntas a doctores en el evento Ocrevus
 
-## Utilizando react-router-dom
-### Dos ligas
-#### Una pantalla inicial lista de doctores para ellos ver sus preguntas
+## Utilizando
+### react-router-dom
+### react-bootstrap
+ 
+## Dos ligas
+### Una pantalla inicial lista de doctores para ellos ver sus preguntas
 Será algo como /doctoresPreguntas
 
 Luego irán los sub apartados, ej: /doctoresPreguntas/1
