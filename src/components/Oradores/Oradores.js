@@ -15,9 +15,10 @@ class Oradores extends Component {
         }
     }
     componentWillMount(){
-        const listaPonentes = firebase.database().ref().child('Ponentes');
+        //const listaPonentes = firebase.database().ref().child('Ponentes');
+        const listaPonentes = firebase.database().ref("Ponentes");
         this.setState({ponentes: listaPonentes});
-        console.log(this.state.ponentes);
+        console.log()
     }
 
     render() {
