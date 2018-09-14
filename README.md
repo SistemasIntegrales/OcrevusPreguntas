@@ -3,6 +3,7 @@
 ## Utilizando
 ### react-router-dom
 ### react-bootstrap
+### redux
  
 ## Dos ligas
 ### Una pantalla inicial lista de doctores para ellos ver sus preguntas
