@@ -12,7 +12,6 @@ const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
         console.log(orador2);
         return (
             <li
-                className="nombre-doctor"
                 onClick={
                     () => onPonenteSelect(ponente)
                 }
@@ -27,7 +26,6 @@ const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
         console.log("ID ponente", ponente.id);
         return (
             <li
-                className="nombre-doctor"
                 onClick={
                     () => onPonenteSelect(ponente)
                 }

@@ -1,16 +1,18 @@
 import React from 'react';
 import * as firebase from 'firebase';
 
-const FormPregunta = ({nombreOrador, idOrador}) => {
+const FormPregunta = ({nombreOrador, idOrador, onNewQuestion}) => {
     const submit = e => {
         console.log("submit");
         e.preventDefault();
+        onNewQuestion();
         var mensaje = document.getElementById('pregutnaPublico').value;
         var mensajeRef = firebase.database().ref(idOrador.idOrador).child("preguntas");
         let nuevoMensaje = mensajeRef.push();
         nuevoMensaje.set({
             pregunta: mensaje
         });
+        document.getElementById('pregutnaPublico').value = "";
     };
 
     return (

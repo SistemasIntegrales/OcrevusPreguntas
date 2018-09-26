@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './Oradores.css';
 
 import PonenteList from '../Ponente_list/Ponente_list';
 
@@ -28,9 +27,11 @@ class Oradores extends Component {
     render() {
         return (
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <h1 className="titulo">Da click a tu nombre para que empieces a recibir preguntas:</h1>
+                    </div>
                     <div className="col">
-                        <h2 className="">Da click a tu nombre para que empieces a recibir preguntas:</h2>
                         <PonenteList
                             onPonenteSelect={
                                 selectedPonente => this.setState({selectedPonente})

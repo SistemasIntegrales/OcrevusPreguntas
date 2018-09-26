@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Pregunta_item.css';
 
 const Pregunta_item = ({pregunta}) => {
     return (

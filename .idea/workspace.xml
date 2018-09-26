@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b49f0d-0d9a-45fc-9785-ca584bc1990e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/emiliano.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/emiliano.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Oradores/Oradores.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Oradores/Oradores.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Oradores/Oradores.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,36 +34,37 @@
     <session id="1105712925">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9" />
+          <entry key="css" value="197" />
           <entry key="html" value="39" />
-          <entry key="js" value="5123" />
+          <entry key="js" value="5705" />
           <entry key="md" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9" />
+          <entry key="CSS" value="197" />
           <entry key="HTML" value="39" />
-          <entry key="JavaScript" value="5123" />
+          <entry key="JavaScript" value="5705" />
           <entry key="Markdown" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="3" />
+          <entry key="CSS" value="20" />
+          <entry key="HTML" value="4" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="51" />
+          <entry key="JavaScript" value="62" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -66,10 +72,10 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="20" />
           <entry key="firebaserc" value="2" />
-          <entry key="html" value="3" />
-          <entry key="js" value="51" />
+          <entry key="html" value="4" />
+          <entry key="js" value="62" />
           <entry key="json" value="1" />
           <entry key="md" value="2" />
         </counts>
@@ -93,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="186">
+              <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -103,63 +109,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="334">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -189,23 +152,27 @@
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Oradores.css" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta/Pregunta.css" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta/Pregunta.js" />
-        <option value="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.css" />
         <option value="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregutna.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/components/Ponente_list/Ponente_list.css" />
-        <option value="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Oradores/Oradores.js" />
         <option value="$PROJECT_DIR$/src/components/Ponente_list/Ponente_list.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.css" />
-        <option value="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.js" />
-        <option value="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js" />
-        <option value="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js" />
+        <option value="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.css" />
+        <option value="$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js" />
+        <option value="$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css" />
+        <option value="$PROJECT_DIR$/src/components/Oradores/Oradores.css" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/Oradores/Oradores.js" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js" />
+        <option value="$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js" />
+        <option value="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.css" />
+        <option value="$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.js" />
         <option value="$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js" />
       </list>
     </option>
@@ -227,10 +194,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1355" />
-    <option name="y" value="491" />
+    <option name="x" value="755" />
+    <option name="y" value="504" />
     <option name="width" value="1104" />
-    <option name="height" value="751" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +215,11 @@
             <path>
               <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
               <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -256,73 +227,12 @@
               <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Oradores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Oradores" type="462c0819:PsiDirectoryNode" />
-              <item name="OradoresPreguntas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Oradores" type="462c0819:PsiDirectoryNode" />
-              <item name="OradoresPreguntas" type="462c0819:PsiDirectoryNode" />
-              <item name="Pregunta_item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Oradores" type="462c0819:PsiDirectoryNode" />
-              <item name="OradoresPreguntas" type="462c0819:PsiDirectoryNode" />
-              <item name="Preguntas_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Ponente_item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Ponente_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PublicoHome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="preguntas-ocrevus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="preguntas-ocrevus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="PublicoHome" type="462c0819:PsiDirectoryNode" />
-              <item name="HacerPregunta" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,15 +275,16 @@
       <workItem from="1536945616108" duration="9235000" />
       <workItem from="1537371073702" duration="1195000" />
       <workItem from="1537450116679" duration="587000" />
-      <workItem from="1537885993692" duration="25753000" />
+      <workItem from="1537885993692" duration="25862000" />
+      <workItem from="1537973182006" duration="6103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46808000" />
+    <option name="totallyTimeSpent" value="53020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1355" y="491" width="1104" height="751" extended-state="0" />
+    <frame x="755" y="504" width="1104" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
@@ -396,7 +307,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23841698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -426,15 +337,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/Oradores.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -445,13 +347,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Ponente_list/Ponente_list.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase.json">
@@ -471,20 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Ponente_list/Ponente_list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -495,13 +377,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/Oradores.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -515,10 +404,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/Oradores.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/PublicoHome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        <state relative-caret-position="46">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -535,65 +481,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/Oradores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/HacerPregunta/HacerPregunta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="186">
+          <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PublicoHome/FormPregunta/FormPregunta.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Ponente_item/Ponente_item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Pregunta_item/Pregunta_item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/Preguntas_list/PreguntasList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Oradores/OradoresPreguntas/OradoresPreguntas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="334">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

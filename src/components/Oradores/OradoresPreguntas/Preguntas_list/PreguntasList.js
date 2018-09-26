@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PreguntaItem from '../Pregunta_item/Pregunta_item';
 
 const PreguntasList = (props) => {
-    if (props.preguntas === null) {
+    if (props.preguntas.length === 0) {
         return(
             <div>Esperando preguntas...</div>
         );

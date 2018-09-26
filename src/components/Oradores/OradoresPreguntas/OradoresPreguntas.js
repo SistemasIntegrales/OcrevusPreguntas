@@ -5,21 +5,21 @@ import * as firebase from 'firebase';
 
 import PreguntasList from './Preguntas_list/PreguntasList';
 
-let conjuntoPregs = [];
 class OradoresPreguntas extends Component {
     constructor(props) {
         super(props);
 
         this.state= {
-            preguntas: null,
+            preguntas: [],
             ponenteSelect: this.props.match.params.id,
             idOrador: this.props.location.state
         }
+        this.gotData = this.gotData.bind(this)
     }
 
     componentDidMount(){
         var preguntasRef = firebase.database().ref(this.state.idOrador).child("preguntas");
-        //preguntasRef.on('value', this.gotData, this.errData);
+        preguntasRef.on('value', this.gotData, this.errData);
         /*preguntasRef.on('value', snap =>{
             this.setState({
                 preguntas: snap.val()
@@ -27,20 +27,27 @@ class OradoresPreguntas extends Component {
         });*/
     }
 
-    /*gotData(data){
-        let preguntas = data.val();
-        let keys = Object.keys(preguntas);
-        for (let i=0; i<keys.length;i++){
-            let k = keys[i];
-            let pregunta = preguntas[k].pregunta;
-            conjuntoPregs.push(pregunta);
+    gotData(data){
+        let preguntasFirebase = data.val();
+        console.log(preguntasFirebase);
+        if (preguntasFirebase !== null) {
+            //this.setState({ preguntas: this.state.preguntas.concat(preguntasFirebase)});
+            //this.setState({ preguntas: [...this.state.preguntas, ...preguntasFirebase]});
+            //this.setState({ preguntas: [...this.state.preguntas].concat(preguntasFirebase)});
+
+            //console.log(`Json preguntas ${jsonPregs}`);
+            this.setState({preguntas: []})
+            let keys = Object.keys(preguntasFirebase);
+            for (let i=0; i<keys.length;i++){
+                let k = keys[i];
+                let pregunta = preguntasFirebase[k].pregunta;
+                this.setState({ preguntas: [...this.state.preguntas].concat(pregunta)});
+            }
         }
-        console.log(conjuntoPregs);
-        () => this.setState({ preguntas: conjuntoPregs });
     }
     errData(err){
         console.log('Error!', err);
-    }*/
+    }
 
     render() {
         return (
@@ -48,7 +55,7 @@ class OradoresPreguntas extends Component {
                 <h2>Preguntas para el ponente {this.state.ponenteSelect} </h2>
                 <div className="row">
                     <div className="col">
-                        <Link className="btn btn-primary" to={'/'}><p>Regresar</p></Link>
+                        <Link className="btn btn-primary" to={'/'}>Regresar</Link>
                     </div>
                     <div className="col-10">
                         <PreguntasList
