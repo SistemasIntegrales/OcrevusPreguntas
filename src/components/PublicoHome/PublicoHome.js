@@ -16,18 +16,6 @@ class PublicoHome extends Component {
             ]
         };
     }
-
-    componentWillMount() {
-        //
-    }
-    /*<div>
-        <ul className="col-md-12 list-group">
-            <li><Link to={`/preguntar/`} > {this.state.ponentes[0]} </Link></li>
-            <li><Link to={`/preguntar/orador2`} >{this.state.ponentes[1]}</Link></li>
-            <li><Link to={`/preguntar/orador3`} >{this.state.ponentes[2]}</Link></li>
-            <li><Link to={`/preguntar/orador3`} >{this.state.ponentes[2]}</Link></li>
-        </ul>
-    </div>*/
     render() {
         return(
             <div className="container">
@@ -45,10 +33,6 @@ class PublicoHome extends Component {
                 </div>
             </div>
         );
-    }
-
-    redirigir(ponente) {
-        //
     }
 }
 

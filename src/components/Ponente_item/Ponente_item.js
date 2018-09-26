@@ -5,6 +5,11 @@ import {Link} from "react-router-dom";
 //const VideoListItem = (props) => {
 const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
     if (origen === "orador") {
+        console.log(`Id del orador en turno ${ponente.id}`);
+        const oradorEnTurno = ponente.id;
+        const orador2 = oradorEnTurno+"";
+        console.log(oradorEnTurno);
+        console.log(orador2);
         return (
             <li
                 className="nombre-doctor"
@@ -12,10 +17,14 @@ const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
                     () => onPonenteSelect(ponente)
                 }
                 className="list-group-item">
-                <Link to={`/oradores/${ponente.nombre}`}>{ponente.nombre}</Link>
+                <Link to={{
+                    pathname: `/oradores/${ponente.nombre}`,
+                    state: ponente.id
+                }}>{ponente.nombre}</Link>
             </li>
         );
     } else {
+        console.log("ID ponente", ponente.id);
         return (
             <li
                 className="nombre-doctor"
@@ -23,7 +32,15 @@ const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
                     () => onPonenteSelect(ponente)
                 }
                 className="list-group-item">
-                <Link to={`/preguntar/${ponente.nombre}`}>{ponente.nombre}</Link>
+                <Link
+                    to={{
+                        pathname: `/preguntar/${ponente.nombre}`,
+                        state:{
+                            idOrador: ponente.id
+                        }
+                    }}>
+                    {ponente.nombre}
+                </Link>
             </li>
         );
     }

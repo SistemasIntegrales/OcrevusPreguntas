@@ -4,7 +4,7 @@ import PreguntaItem from '../Pregunta_item/Pregunta_item';
 const PreguntasList = (props) => {
     if (props.preguntas === null) {
         return(
-            <div>Cargando preguntas...</div>
+            <div>Esperando preguntas...</div>
         );
     } else {
         const preguntaItems = props.preguntas.map((pregunta) => {

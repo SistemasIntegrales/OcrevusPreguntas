@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Oradores from './components/Oradores/Oradores';
 import OradoresPreguntas from './components/Oradores/OradoresPreguntas/OradoresPreguntas';
@@ -12,11 +12,13 @@ class App extends Component {
     return (
         <Router>
             <div className="main">
-                <Route exact path = "/" component = {Oradores} />
-                <Route exact path = "/oradores/:id" component = {OradoresPreguntas} />
+                <Switch>
+                    <Route exact path = "/oradores/:id" component = {OradoresPreguntas} />
+                    <Route exact path = "/" component = {Oradores} />
 
-                <Route exact path = "/preguntar/" component = {PublicoHome} />
-                <Route exact path = "/preguntar/:id" component = {HacerPregunta} />
+                    <Route exact path = "/preguntar/:id" component = {HacerPregunta} />
+                    <Route exact path = "/preguntar/" component = {PublicoHome} />
+                </Switch>
             </div>
         </Router>
     );
