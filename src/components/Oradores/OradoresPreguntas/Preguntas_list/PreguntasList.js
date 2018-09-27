@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PreguntaItem from '../Pregunta_item/Pregunta_item';
 
 const PreguntasList = (props) => {

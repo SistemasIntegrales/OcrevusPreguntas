@@ -13,4 +13,20 @@
   text-align: center;
   background-color: #007ac2;
   color: white;
+  margin-bottom: 1em;
+}
+
+.tituloh1{
+  text-align: center;
+  background-color: #007ac2;
+  color: white;
+}
+
+.tituloh1.nomPreguntado {
+  margin-bottom: 1em;
+}
+
+/* Buttons REGRESAR */
+.but-regresar {
+  margin-bottom: 1.5em;
 }

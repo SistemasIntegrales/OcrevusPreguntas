@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Pregunta_item.css';
 
 const Pregunta_item = ({pregunta}) => {
