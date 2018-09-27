@@ -33,12 +33,18 @@ class HacerPregunta extends Component {
         return(
             <div className="container">
                 <div className="row">
+                    <div className="col-12">
+                        <h1 className="titulo">Escribe tu pregunta para el ponente</h1>
+                        <h1 className="titulo">{this.state.nombreOrador}</h1>
+                    </div>
+                </div>
+                <div className="row">
                     <div className="col-2">
                         <Link className="btn btn-primary" to={'/preguntar'}>Regresar</Link>
                     </div>
                     <div className="col-10">
                         <FormPregunta
-                            nombreOrador = {this.state.nombreOrador}
+                            //nombreOrador = {this.state.nombreOrador}
                             idOrador = {this.state.idOrador}
                             onNewQuestion = {this.addPregunta}
                         />

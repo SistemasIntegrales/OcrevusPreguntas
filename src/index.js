@@ -8,12 +8,12 @@ import * as firebase from 'firebase';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyCAEeyzrlQNTrlzzI4UsSImRVcZcDZfFk0",
-    authDomain: "preguntassi.firebaseapp.com",
-    databaseURL: "https://preguntassi.firebaseio.com",
-    projectId: "preguntassi",
-    storageBucket: "preguntassi.appspot.com",
-    messagingSenderId: "608425415636"
+    apiKey: "AIzaSyBhR5p483gkB7B3395-asPkh41Jk33jeEw",
+    authDomain: "unantesyunahoraem.firebaseapp.com",
+    databaseURL: "https://unantesyunahoraem.firebaseio.com",
+    projectId: "unantesyunahoraem",
+    storageBucket: "unantesyunahoraem.appspot.com",
+    messagingSenderId: "631653853839"
 };
 firebase.initializeApp(config);
 
