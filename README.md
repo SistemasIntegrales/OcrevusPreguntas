@@ -4,7 +4,7 @@
 ### react-router-dom
 ### react-bootstrap
 ### redux
- 
+
 ## Dos ligas
 ### Una pantalla inicial lista de doctores para ellos ver sus preguntas
 Será algo como /doctoresPreguntas
@@ -14,5 +14,5 @@ Luego irán los sub apartados, ej: /doctoresPreguntas/1
 Será algo como /panelDoctores, igual con sub apartados
 
 ## Firebase database and deploy
-### Página cargada en Firebase, url: https://ocrevuspreguntas.firebaseapp.com/
+### Página cargada en Firebase, url: https://unantesyunahoraem.web.app/
 ### Database de ese proy en firebase utilziada para guardar preguntas y bajarlas en esta url
