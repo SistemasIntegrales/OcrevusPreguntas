@@ -52,12 +52,13 @@ class OradoresPreguntas extends Component {
     render() {
         return (
             <div className="container">
-                <h2 className="tituloh2">Preguntas para el ponente {this.state.ponenteSelect} </h2>
+                <h1 className="tituloh1">Preguntas para el ponente:</h1>
+                <h1 className="tituloh1 nomPreguntado">{this.state.ponenteSelect}</h1>
                 <div className="row">
-                    <div className="but-regresar col-sm-12 col-md-3">
-                        <Link className="btn btn-warning" to={'/'}>Regresar</Link>
+                    <div className="but-regresar col-xs-12 col-md-2">
+                        <Link className="btn btn-success" to={'/'}>Regresar</Link>
                     </div>
-                    <div className="col-sm-12 col-md-9">
+                    <div className="col-xs-12 col-md-10">
                         <PreguntasList
                             preguntas = {this.state.preguntas}
                         />

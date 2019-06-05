@@ -1,3 +1,16 @@
+.list-group-item {
+  margin-bottom: 0.25rem;
+  /* background: #5c5cc2; */
+  background: -webkit-gradient(linear, left top, left bottom, from(#6262c1),to(#5050ba));
+  background: -webkit-linear-gradient(135deg, #489e24 0%,#145996 100%);
+  background: -o-linear-gradient(135deg, #61ce31 0%,#145996 100%);
+  background: linear-gradient(to bottom right, #61ce31 0%,#145996 100%);
+  border-radius: 15px;
+}
+.list-group-item:first-child, .list-group-item:last-child {
+  border-radius: 15px;
+}
+
 .pregunta-doctor{
     color: white;
     font-size: 2em;

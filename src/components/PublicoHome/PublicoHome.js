@@ -8,10 +8,10 @@ class PublicoHome extends Component {
         super();
         this.state= {
             ponentes: [
-                {nombre: "Dr. José de Jesús Flores Rivera", id: 'FloresRivera'},
-                {nombre: "Dr. Fred D. Lublin", id: 'FredLublin'},
-                {nombre: "Dr. Jorge R. Oksenberg", id: 'JorgeOksenberg'},
-                {nombre: "Dr. Manuel Ricardo Fruns Quintana", id: 'ManuelFruns'}
+              {nombre: "Barcelona", id: 'Barca'},
+              {nombre: "Doc1", id: 'Doc1'},
+              {nombre: "Doc2", id: 'Doc2'},
+              {nombre: "Doc3", id: 'Doc3'},
             ]
         };
     }

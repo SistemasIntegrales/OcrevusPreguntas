@@ -18,10 +18,15 @@ const FormPregunta = ({nombreOrador, idOrador, onNewQuestion}) => {
     return (
         <form onSubmit={submit}>
             <div className="form-group">
-                {/*<h1 htmlFor="textarea1">Realiza tu pregunta a {nombreOrador} </h1>*/}
-                <input className="form-control" type="text" id="pregutnaPublico" placeholder="Escribe tu pregunta" required />
+                {/*<input className="form-control" type="text" id="pregutnaPublico" placeholder="Escribe tu pregunta" required />*/}
+                <textarea
+                  className="form-control"
+                  id="pregutnaPublico"
+                  rows="5"
+                  placeholder="Escribe tu pregunta" required
+                />
             </div>
-            <button className="btn btn-primary">Enviar</button>
+            <button id="btnEnviar" className="btn btn-primary">Enviar</button>
         </form>
     );
 };

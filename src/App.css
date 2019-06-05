@@ -11,14 +11,14 @@
 
 .titulo{
   text-align: center;
-  background-color: #007ac2;
+  background-color: #145996;
   color: white;
   margin-bottom: 1em;
 }
 
 .tituloh1{
   text-align: center;
-  background-color: #007ac2;
+  background-color: #145996;
   color: white;
 }
 
@@ -29,4 +29,22 @@
 /* Buttons REGRESAR */
 .but-regresar {
   margin-bottom: 1.5em;
+}
+
+textarea {
+  resize: none;
+}
+
+#btnEnviar {
+  font-size: 1.5rem;
+}
+.btn-success {
+  font-size: 1.2rem;
+  background-color: #5c5cc2;
+  border-color: #5c5cc2;
+}
+
+.btn-success:hover {
+  background-color: #4c4cbf;
+  border-color: #4c4cad;
 }
