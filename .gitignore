@@ -3,6 +3,12 @@
 # dependencies
 /node_modules
 
+# firebase
+/firebase
+
+# IDEs
+/idea
+
 # testing
 /coverage
 
