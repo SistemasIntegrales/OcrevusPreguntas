@@ -8,11 +8,14 @@ class PublicoHome extends Component {
         super();
         this.state= {
             ponentes: [
-              {nombre: "Dr. Francisco Goñi", id: 'Bloque 4 - 3'},
-              {nombre: "Dr. Jesús Jiménez Román (discusión)", id: 'Bloque 4 - 4'},
-              {nombre: "Dr. Arturo Ramirez & Dra. Valeria Sánchez H", id: 'Bloque 4 - 5'},
-              {nombre: "Q&A lárimas artificiales", id: 'Bloque 4 - 6'},
-              {nombre: "Dra. Kira Chávez (conclusiones médicas)", id: 'Bloque 4 - 7'},
+              {nombre: "Francisco Corona Chávez", id: 'Bloque 1-1'},
+              {nombre: "Francisco Plata", id: 'Bloque 1-2'},
+              {nombre: "Dra. Rita Q. Fuentes", id: 'Bloque 1-3'},
+              {nombre: "Alejandra Morales", id: 'Bloque 1-4'},
+              {nombre: "LCS team", id: 'Bloque 2-1'},
+              {nombre: "Sandro Scomparim", id: 'Bloque 2-2'},
+              {nombre: "Ley de protección (tbd)", id: 'Bloque 2-3'},
+              {nombre: "Francisco Villegas", id: 'Bloque 2-4'},
             ]
         };
     }
