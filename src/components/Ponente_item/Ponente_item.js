@@ -12,33 +12,35 @@ const PonenteItem = ({origen, ponente, onPonenteSelect}) => {
     console.log(orador2);
     return (
       <li
-      onClick={
-        () => onPonenteSelect(ponente)
-      }
-      className="list-group-item">
-      <Link to={{
-        pathname: `/oradores/${ponente.nombre}`,
-        state: ponente.id
-      }}>{ponente.nombre}</Link>
+        onClick={
+          () => onPonenteSelect(ponente)
+        }
+        className="list-group-item">
+        <Link to={{
+          pathname: `/oradores/${ponente.nombre}`,
+          state: ponente.id
+        }}>{ponente.nombre}</Link>
       </li>
     );
   } else {
     console.log("ID ponente", ponente.id);
     return (
       <li
-      onClick={
-        () => onPonenteSelect(ponente)
-      }
-      className="list-group-item">
-      <Link
-      to={{
-        pathname: `/preguntar/${ponente.nombre}`,
-        state:{
-          idOrador: ponente.id
+        onClick={
+          () => onPonenteSelect(ponente)
         }
-      }}>
-      {ponente.nombre}
-      </Link>
+        className="list-group-item"
+      >
+        <Link
+          to={{
+            pathname: `/preguntar/${ponente.nombre}`,
+            state:{
+              idOrador: ponente.id
+            }
+          }}
+        >
+          {ponente.nombre}
+        </Link>
       </li>
     );
   }
