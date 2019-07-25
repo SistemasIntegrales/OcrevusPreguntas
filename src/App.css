@@ -48,3 +48,7 @@ textarea {
   background-color: #4c4cbf;
   border-color: #4c4cad;
 }
+
+.cargando {
+  color: white;
+}
