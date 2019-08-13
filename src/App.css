@@ -11,15 +11,19 @@
 
 .titulo{
   text-align: center;
-  background-color: #145996;
   color: white;
-  margin-bottom: 1em;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-.tituloh1{
+.tituloh1 {
   text-align: center;
-  background-color: #145996;
   color: white;
+  font-size: 1.5rem;
+}
+#tituloSuperior {
+  margin-top: 10rem;
 }
 
 .tituloh1.nomPreguntado {
@@ -37,16 +41,6 @@ textarea {
 
 #btnEnviar {
   font-size: 1.5rem;
-}
-.btn-success {
-  font-size: 1.2rem;
-  background-color: #5c5cc2;
-  border-color: #5c5cc2;
-}
-
-.btn-success:hover {
-  background-color: #4c4cbf;
-  border-color: #4c4cad;
 }
 
 .cargando {

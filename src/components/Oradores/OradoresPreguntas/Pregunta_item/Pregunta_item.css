@@ -1,17 +1,45 @@
+.list-group {
+  padding: 0;
+}
 .list-group-item {
-  margin-bottom: 0.25rem;
+  cursor: pointer;
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  text-align: center;
+  padding-bottom: 1em;
+  margin-bottom: 0.5rem;
   /* background: #5c5cc2; */
-  background: -webkit-gradient(linear, left top, left bottom, from(#6262c1),to(#5050ba));
-  background: -webkit-linear-gradient(135deg, #489e24 0%,#145996 100%);
-  background: -o-linear-gradient(135deg, #61ce31 0%,#145996 100%);
-  background: linear-gradient(to bottom right, #61ce31 0%,#145996 100%);
+  background: -webkit-gradient(linear, top, bottom, from(#0054a6),to(#080f38));
+  background: -webkit-linear-gradient(top, #0054a6 0%, #080f38 100%);
+  background: -o-linear-gradient(top, #0054a6 0%, #080f38 100%);
+  background: linear-gradient(to bottom, #0054a6 0%, #080f38 100%);
   border-radius: 15px;
 }
+.pregunta-item {
+  background: -webkit-gradient(linear, top, bottom, from(#007bff),to(#004487));
+  background: -webkit-linear-gradient(top, #007bff 0%, #004487 100%);
+  background: -o-linear-gradient(top, #007bff 0%, #004487 100%);
+  background: linear-gradient(to bottom, #007bff 0%, #004487 100%);
+}
+
 .list-group-item:first-child, .list-group-item:last-child {
   border-radius: 15px;
+}
+.list-group-item a {
+    color: white;
+    font-size: 2em;
+}
+
+.list-group-item:hover {
+    background-color: #eeeeee;
 }
 
 .pregunta-doctor{
     color: white;
     font-size: 2em;
+}
+
+@media screen and (max-width: 414px) {
+  .list-group-item a {
+      font-size: 1.25em;
+  }
 }

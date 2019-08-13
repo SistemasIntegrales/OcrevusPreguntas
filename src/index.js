@@ -7,15 +7,16 @@ import registerServiceWorker from './registerServiceWorker';
 import * as firebase from 'firebase';
 
 // Initialize Firebase
-var config = {
-    apiKey: "AIzaSyBhR5p483gkB7B3395-asPkh41Jk33jeEw",
-    authDomain: "unantesyunahoraem.firebaseapp.com",
-    databaseURL: "https://unantesyunahoraem.firebaseio.com",
-    projectId: "unantesyunahoraem",
-    storageBucket: "unantesyunahoraem.appspot.com",
-    messagingSenderId: "631653853839"
+const firebaseConfig = {
+  apiKey: "AIzaSyDXFogm6rCmasX98bmGEBcEfOPCUCDmVHU",
+  authDomain: "preguntas-ponente.firebaseapp.com",
+  databaseURL: "https://preguntas-ponente.firebaseio.com",
+  projectId: "preguntas-ponente",
+  storageBucket: "",
+  messagingSenderId: "49790416945",
+  appId: "1:49790416945:web:7def835e0e524b9d"
 };
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
